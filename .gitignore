@@ -1,0 +1,14 @@
+/processed_dataset
+
+.venv/
+
+effnet_X_test.npy
+effnet_X_train.npy
+resnet_X_test.npy
+resnet_X_train.npy
+vit_X_test.npy
+vit_X_train.npy
+vit_X_val.npy
+y_test.npy
+y_train.npy
+y_val.npy
