@@ -1,7 +1,7 @@
 # 🍔 Food Ingredient Classification - Machine Learning Pipeline
 
 ## 📖 Course Information
-- **Course Name:** Machine Learning 
+- **Course Name:** Machine Learning
 - **Course Code:** CO3117
 - **Semester:** Semester II, Academic Year 2025-2026
 - **Instructor:** Dr. Truong Vinh Lan
@@ -22,23 +22,30 @@ The primary goal of this project is to implement a complete traditional machine 
 - Compare the feature representations and model performances using advanced visual analytics (PCA, t-SNE, Confusion Matrix).
 
 ## 📂 Directory Structure
-The submission package and this repository strictly follow the required structure:
+The repository now uses a single integrated notebook approach.
 ```text
-Group15_FinalSubmission/
+src/
 ├── notebooks/
-│   └── Main_Pipeline.ipynb        # The main Google Colab notebook
-├── modules/
-│   └── (Optional) helper_functions.py # Custom python modules if any
+│   └── main.ipynb                    # Main notebook with full EDA, preprocessing, feature extraction, and modeling
 ├── reports/
-│   ├── ProgressReport_Phase1.pdf
-│   ├── ProgressReport_Phase2.pdf
-│   ├── ProgressReport_Phase3.pdf
-│   └── FINAL_REPORT_Group15.pdf   # The comprehensive final report
+│   ├── feature_space_visualization.png
+│   ├── hf_vit_training_history.png
+│   ├── ml_results_all_features.csv
+│   └── label_map.json
 └── features/
-    ├── resnet_X_train.npy         # (Files are too large for GitHub, generated via Colab)
-    ├── vit_X_train.npy            
-    └── ...
+    ├── resnet_X_train.npy
+    ├── resnet_X_test.npy
+    ├── effnet_X_train.npy
+    ├── effnet_X_test.npy
+    ├── vit_X_train.npy
+    ├── vit_X_test.npy
+    ├── vit_X_val.npy
+    ├── y_train.npy
+    ├── y_test.npy
+    └── y_val.npy
 ```
+
+> Note: All pipeline code is integrated inside `notebooks/main.ipynb`. The project is not split into separate Python modules for this version.
 
 ## ⚙️ How to Run the Code
 Our pipeline is designed to be fully reproducible within a Google Colab environment. **No personal Google Drive mounting is required.**
@@ -46,7 +53,7 @@ Our pipeline is designed to be fully reproducible within a Google Colab environm
 1. **Open the Notebook:** Open `notebooks/Main_Pipeline.ipynb` in Google Colab.
 2. **Environment Setup:** The notebook automatically installs all necessary dependencies (`datasets`, `transformers`, `torch`, `tensorflow`, `scikit-learn`, etc.) in the first cell.
 3. **Data Acquisition:** The dataset is automatically downloaded directly from Hugging Face (`Scuccorese/food-ingredients-dataset`) into the Colab temporary storage.
-4. **Execution:** On the top menu bar, click **Runtime -> Run all**. 
+4. **Execution:** On the top menu bar, click **Runtime -> Run all**.
 5. **Output:** The notebook will sequentially execute EDA, preprocessing, feature extraction, and model evaluation without any manual intervention or external dependencies.
 
 ## 🔗 Project Links
