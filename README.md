@@ -57,5 +57,5 @@ Our pipeline is designed to be fully reproducible within a Google Colab environm
 5. **Output:** The notebook will sequentially execute EDA, preprocessing, feature extraction, and model evaluation without any manual intervention or external dependencies.
 
 ## 🔗 Project Links
-* **Google Colab Notebook:** [Insert Google Colab Public Link Here]
+* **Google Colab Notebook:** [Link](https://colab.research.google.com/github/tiendinh-hcmut/ML-Food-Ingredient-Classification/blob/main/notebooks/food_ingredient.ipynb)
 * **Final PDF Report:** [Insert Link to PDF in Repo or Drive Here]
