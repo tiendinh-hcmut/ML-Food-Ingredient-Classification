@@ -58,4 +58,4 @@ Our pipeline is designed to be fully reproducible within a Google Colab environm
 
 ## 🔗 Project Links
 * **Google Colab Notebook:** [Link](https://colab.research.google.com/github/tiendinh-hcmut/ML-Food-Ingredient-Classification/blob/main/notebooks/food_ingredient.ipynb)
-* **Final PDF Report:** [Insert Link to PDF in Repo or Drive Here]
+* **Final PDF Report:** [Link](https://drive.google.com/file/d/1UKr13rqXhwE1evGCACmyJopJj7Ul1Rqj/view?usp=sharing)
